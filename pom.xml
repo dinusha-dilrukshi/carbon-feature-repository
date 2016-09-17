@@ -69,7 +69,7 @@
         <carbon.apimgt.version.2.0.0>2.0.0</carbon.apimgt.version.2.0.0>
         <carbon.apimgt.version.2.0.1>2.0.1</carbon.apimgt.version.2.0.1>
         <carbon.apimgt.version.5.0.3>5.0.3</carbon.apimgt.version.5.0.3>
-        <carbon.appmgt.version.1.2.0>1.2.0-SNAPSHOT</carbon.appmgt.version.1.2.0>
+        <carbon.appmgt.version.1.2.0>1.2.3-SNAPSHOT</carbon.appmgt.version.1.2.0>
         <carbon.business.process.version.4.4.0>4.4.0</carbon.business.process.version.4.4.0>
         <carbon.business.process.version.4.4.3>4.4.3</carbon.business.process.version.4.4.3>
         <carbon.commons.version.4.4.6>4.4.6</carbon.commons.version.4.4.6>
@@ -159,6 +159,7 @@
         <org.jaggery.version.0.11.2>0.11.2</org.jaggery.version.0.11.2>
         <org.jaggery.version.0.12.0>0.12.0</org.jaggery.version.0.12.0>
         <org.jaggery.version.0.12.5>0.12.5</org.jaggery.version.0.12.5>
+        <org.jaggery.version.0.12.6>0.12.6</org.jaggery.version.0.12.6>
         <process.feature.version.1.0.0>1.0.0</process.feature.version.1.0.0>
         <process.feature.version.1.2.0>1.2.0</process.feature.version.1.2.0>
         <process.feature.version.1.4.0>1.4.0</process.feature.version.1.4.0>
@@ -185,6 +186,7 @@
         <ws.feature.version.1.2.0>1.2.0</ws.feature.version.1.2.0>
         <ws.feature.version.1.4.2>1.4.2</ws.feature.version.1.4.2>
         <ws.feature.version.1.5.2>1.5.2</ws.feature.version.1.5.2>
+        <product.appm.version.1.2.1>1.2.1-SNAPSHOT</product.appm.version.1.2.1>
     </properties>
 
     <build>
@@ -378,6 +380,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs:org.jaggeryjs.feature:${org.jaggery.version.0.12.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs:org.jaggeryjs.feature:${org.jaggery.version.0.12.6}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -1751,6 +1756,9 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.task.server.feature:${carbon.mediation.version.4.6.0}
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.mediation:org.wso2.carbon.task.server.feature:${carbon.mediation.version.4.6.1}
+                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.messaging:org.wso2.carbon.andes.feature:${carbon.messaging.version.3.0.1}
@@ -2317,10 +2325,10 @@
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
-                                    org.wso2.appmanager:org.wso2.appmanager.styles.feature:${carbon.appmgt.version.1.2.0}
+                                    org.wso2.appmanager:org.wso2.appmanager.styles.feature:${product.appm.version.1.2.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.appmanager:org.wso2.stratos.appmgt.dashboard.ui.feature:${carbon.appmgt.version.1.2.0}
+                                    org.wso2.appmanager:org.wso2.stratos.appmgt.dashboard.ui.feature:${product.appm.version.1.2.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.feature:${carbon.appmgt.version.1.2.0}
