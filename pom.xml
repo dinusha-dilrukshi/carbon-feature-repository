@@ -132,6 +132,7 @@
         <carbon.social.version.2.3.4>2.3.4</carbon.social.version.2.3.4>
         <carbon.social.version.2.3.8>2.3.8</carbon.social.version.2.3.8>
         <carbon.store.version.1.4.2>1.4.4</carbon.store.version.1.4.2>
+        <carbon.store.version.1.4.5>1.4.5-SNAPSHOT</carbon.store.version.1.4.5>
         <cipher.tool.version.1.0.0v3>1.0.0-wso2v3</cipher.tool.version.1.0.0v3>
         <email.feature.version.1.0.0>1.0.0</email.feature.version.1.0.0>
         <email.feature.version.1.2.0>1.2.0</email.feature.version.1.2.0>
@@ -2159,6 +2160,9 @@
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${carbon.store.version.1.4.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${carbon.store.version.1.4.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2169,6 +2173,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:org.wso2.store.feature:${carbon.store.version.1.4.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.store.feature:${carbon.store.version.1.4.5}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:permission.feature:${es.feature.version.2.3.4}
