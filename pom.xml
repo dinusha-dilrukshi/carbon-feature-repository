@@ -69,7 +69,7 @@
         <carbon.apimgt.version.2.0.0>2.0.0</carbon.apimgt.version.2.0.0>
         <carbon.apimgt.version.2.0.1>2.0.1</carbon.apimgt.version.2.0.1>
         <carbon.apimgt.version.5.0.3>5.0.3</carbon.apimgt.version.5.0.3>
-        <carbon.appmgt.version.1.2.0>1.2.6-SNAPSHOT</carbon.appmgt.version.1.2.0>
+        <carbon.appmgt.version.1.2.0>1.3.0-SNAPSHOT</carbon.appmgt.version.1.2.0>
         <carbon.business.process.version.4.4.0>4.4.0</carbon.business.process.version.4.4.0>
         <carbon.business.process.version.4.4.3>4.4.3</carbon.business.process.version.4.4.3>
         <carbon.commons.version.4.4.6>4.4.6</carbon.commons.version.4.4.6>
@@ -132,7 +132,7 @@
         <carbon.social.version.2.3.4>2.3.4</carbon.social.version.2.3.4>
         <carbon.social.version.2.3.8>2.3.8</carbon.social.version.2.3.8>
         <carbon.store.version.1.4.2>1.4.4</carbon.store.version.1.4.2>
-        <carbon.store.version.1.4.5>1.4.5-SNAPSHOT</carbon.store.version.1.4.5>
+        <carbon.store.version.1.4.5>1.4.5</carbon.store.version.1.4.5>
         <cipher.tool.version.1.0.0v3>1.0.0-wso2v3</cipher.tool.version.1.0.0v3>
         <email.feature.version.1.0.0>1.0.0</email.feature.version.1.0.0>
         <email.feature.version.1.2.0>1.2.0</email.feature.version.1.2.0>
